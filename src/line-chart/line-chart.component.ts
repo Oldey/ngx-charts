@@ -92,14 +92,14 @@ import { getUniqueXDomainValues } from '../common/domain.helper';
               [xSet]="xSet"
               [xScale]="xScale"
               [yScale]="yScale"
-              [results]="results"
+              [results]="points || results"
               [colors]="colors"
               [tooltipDisabled]="tooltipDisabled"
               [tooltipTemplate]="seriesTooltipTemplate"
               (hover)="updateHoveredVertical($event)"
             />
 
-            <svg:g *ngFor="let series of results">
+            <svg:g *ngFor="let series of points">
               <svg:g ngx-charts-circle-series
                 [xScale]="xScale"
                 [yScale]="yScale"
@@ -191,6 +191,7 @@ export class LineChartComponent extends BaseChartComponent {
   @Input() xScaleMax: any;
   @Input() yScaleMin: number;
   @Input() yScaleMax: number;
+  @Input() points: any = [];
 
   @Output() activate: EventEmitter<any> = new EventEmitter();
   @Output() deactivate: EventEmitter<any> = new EventEmitter();

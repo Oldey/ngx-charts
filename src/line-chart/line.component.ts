@@ -22,6 +22,7 @@ import { select } from 'd3-selection';
     <svg:path
       [@animationState]="'active'"
       class="line"
+      [class.line-dashed]="data.extra && data.extra.dashed"
       [attr.d]="initialPath"
       [attr.fill]="fill"
       [attr.stroke]="stroke"

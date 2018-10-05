@@ -18,6 +18,7 @@ import {
       <span
         class="legend-label-color"
         [style.background-color]="color"
+        [style.border-color]="color"
         (click)="toggle.emit(formattedLabel)">
       </span>
       <span class="legend-label-text">

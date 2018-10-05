@@ -103,7 +103,7 @@ exports = module.exports = __webpack_require__("./node_modules/css-loader/lib/cs
 
 
 // module
-exports.push([module.i, ".ngx-charts {\n  float: left;\n  overflow: visible; }\n  .ngx-charts .circle,\n  .ngx-charts .bar,\n  .ngx-charts .arc {\n    cursor: pointer; }\n  .ngx-charts .bar.active, .ngx-charts .bar:hover,\n  .ngx-charts .cell.active,\n  .ngx-charts .cell:hover,\n  .ngx-charts .arc.active,\n  .ngx-charts .arc:hover,\n  .ngx-charts .card.active,\n  .ngx-charts .card:hover {\n    opacity: 0.8;\n    -webkit-transition: opacity 100ms ease-in-out;\n    transition: opacity 100ms ease-in-out; }\n  .ngx-charts .bar:focus,\n  .ngx-charts .cell:focus,\n  .ngx-charts .arc:focus,\n  .ngx-charts .card:focus {\n    outline: none; }\n  .ngx-charts g:focus {\n    outline: none; }\n  .ngx-charts .line-series.inactive,\n  .ngx-charts .line-series-range.inactive,\n  .ngx-charts .polar-series-path.inactive,\n  .ngx-charts .polar-series-area.inactive,\n  .ngx-charts .area-series.inactive {\n    -webkit-transition: opacity 100ms ease-in-out;\n    transition: opacity 100ms ease-in-out;\n    opacity: .2; }\n  .ngx-charts .line-highlight {\n    display: none; }\n    .ngx-charts .line-highlight.active {\n      display: block; }\n  .ngx-charts .area {\n    opacity: 0.6; }\n  .ngx-charts .circle:hover {\n    cursor: pointer; }\n  .ngx-charts .label {\n    font-size: 12px;\n    font-weight: normal; }\n  .ngx-charts .tooltip-anchor {\n    fill: black; }\n  .ngx-charts .gridline-path {\n    stroke: #ddd;\n    stroke-width: 1;\n    fill: none; }\n  .ngx-charts .refline-path {\n    stroke: #a8b2c7;\n    stroke-width: 1;\n    stroke-dasharray: 5;\n    stroke-dashoffset: 5; }\n  .ngx-charts .refline-label {\n    font-size: 9px; }\n  .ngx-charts .reference-area {\n    fill-opacity: 0.05;\n    fill: #000; }\n  .ngx-charts .gridline-path-dotted {\n    stroke: #ddd;\n    stroke-width: 1;\n    fill: none;\n    stroke-dasharray: 1, 20;\n    stroke-dashoffset: 3; }\n  .ngx-charts .grid-panel rect {\n    fill: none; }\n  .ngx-charts .grid-panel.odd rect {\n    fill: rgba(0, 0, 0, 0.05); }\n", ""]);
+exports.push([module.i, ".ngx-charts {\n  float: left;\n  overflow: visible; }\n  .ngx-charts .circle,\n  .ngx-charts .bar,\n  .ngx-charts .arc {\n    cursor: pointer; }\n  .ngx-charts .bar.active, .ngx-charts .bar:hover,\n  .ngx-charts .cell.active,\n  .ngx-charts .cell:hover,\n  .ngx-charts .arc.active,\n  .ngx-charts .arc:hover,\n  .ngx-charts .card.active,\n  .ngx-charts .card:hover {\n    opacity: 0.8;\n    -webkit-transition: opacity 100ms ease-in-out;\n    transition: opacity 100ms ease-in-out; }\n  .ngx-charts .bar:focus,\n  .ngx-charts .cell:focus,\n  .ngx-charts .arc:focus,\n  .ngx-charts .card:focus {\n    outline: none; }\n  .ngx-charts g:focus {\n    outline: none; }\n  .ngx-charts .line.line-dashed {\n    stroke-dasharray: 5px 3px; }\n  .ngx-charts .line-series.inactive,\n  .ngx-charts .line-series-range.inactive,\n  .ngx-charts .polar-series-path.inactive,\n  .ngx-charts .polar-series-area.inactive,\n  .ngx-charts .area-series.inactive {\n    -webkit-transition: opacity 100ms ease-in-out;\n    transition: opacity 100ms ease-in-out;\n    opacity: .2; }\n  .ngx-charts .line-highlight {\n    display: none; }\n    .ngx-charts .line-highlight.active {\n      display: block; }\n  .ngx-charts .area {\n    opacity: 0.6; }\n  .ngx-charts .circle:hover {\n    cursor: pointer; }\n  .ngx-charts .label {\n    font-size: 12px;\n    font-weight: normal; }\n  .ngx-charts .tooltip-anchor {\n    fill: black; }\n  .ngx-charts .gridline-path {\n    stroke: #ddd;\n    stroke-width: 1;\n    fill: none; }\n  .ngx-charts .refline-path {\n    stroke: #a8b2c7;\n    stroke-width: 1;\n    stroke-dasharray: 5;\n    stroke-dashoffset: 5; }\n  .ngx-charts .refline-label {\n    font-size: 9px; }\n  .ngx-charts .reference-area {\n    fill-opacity: 0.05;\n    fill: #000; }\n  .ngx-charts .gridline-path-dotted {\n    stroke: #ddd;\n    stroke-width: 1;\n    fill: none;\n    stroke-dasharray: 1, 20;\n    stroke-dashoffset: 3; }\n  .ngx-charts .grid-panel rect {\n    fill: none; }\n  .ngx-charts .grid-panel.odd rect {\n    fill: rgba(0, 0, 0, 0.05); }\n", ""]);
 
 // exports
 
@@ -3545,7 +3545,7 @@ var BarHorizontalComponent = /** @class */ (function (_super) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return BarLabelComponent; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__("@angular/core");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__angular_core__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1____ = __webpack_require__("./src/index.ts");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__common_label_helper__ = __webpack_require__("./src/common/label.helper.ts");
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -3580,7 +3580,7 @@ var BarLabelComponent = /** @class */ (function () {
             this.formatedValue = this.valueFormatting(this.value);
         }
         else {
-            this.formatedValue = Object(__WEBPACK_IMPORTED_MODULE_1____["formatLabel"])(this.value);
+            this.formatedValue = Object(__WEBPACK_IMPORTED_MODULE_1__common_label_helper__["a" /* formatLabel */])(this.value);
         }
         if (this.orientation === 'horizontal') {
             this.x = this.barX + this.barWidth;
@@ -5321,18 +5321,21 @@ var BarComponent = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__bar_horizontal_stacked_component__ = __webpack_require__("./src/bar-chart/bar-horizontal-stacked.component.ts");
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_5__bar_horizontal_stacked_component__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__series_horizontal_component__ = __webpack_require__("./src/bar-chart/series-horizontal.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_6__series_horizontal_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__bar_vertical_component__ = __webpack_require__("./src/bar-chart/bar-vertical.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_7__bar_vertical_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__bar_vertical_2d_component__ = __webpack_require__("./src/bar-chart/bar-vertical-2d.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_8__bar_vertical_2d_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__bar_vertical_normalized_component__ = __webpack_require__("./src/bar-chart/bar-vertical-normalized.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_9__bar_vertical_normalized_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__bar_vertical_stacked_component__ = __webpack_require__("./src/bar-chart/bar-vertical-stacked.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_10__bar_vertical_stacked_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__series_vertical_component__ = __webpack_require__("./src/bar-chart/series-vertical.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_11__series_vertical_component__["a"]; });
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_11__series_vertical_component__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "m", function() { return __WEBPACK_IMPORTED_MODULE_6__series_horizontal_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__bar_label_component__ = __webpack_require__("./src/bar-chart/bar-label.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_7__bar_label_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__bar_vertical_component__ = __webpack_require__("./src/bar-chart/bar-vertical.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "i", function() { return __WEBPACK_IMPORTED_MODULE_8__bar_vertical_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__bar_vertical_2d_component__ = __webpack_require__("./src/bar-chart/bar-vertical-2d.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "h", function() { return __WEBPACK_IMPORTED_MODULE_9__bar_vertical_2d_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__bar_vertical_normalized_component__ = __webpack_require__("./src/bar-chart/bar-vertical-normalized.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "j", function() { return __WEBPACK_IMPORTED_MODULE_10__bar_vertical_normalized_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__bar_vertical_stacked_component__ = __webpack_require__("./src/bar-chart/bar-vertical-stacked.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "k", function() { return __WEBPACK_IMPORTED_MODULE_11__bar_vertical_stacked_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__series_vertical_component__ = __webpack_require__("./src/bar-chart/series-vertical.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "l", function() { return __WEBPACK_IMPORTED_MODULE_12__series_vertical_component__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "n", function() { return __WEBPACK_IMPORTED_MODULE_12__series_vertical_component__["b"]; });
+
 
 
 
@@ -6674,8 +6677,13 @@ var BubbleSeriesComponent = /** @class */ (function () {
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__bubble_chart_module__["a"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__bubble_chart_component__ = __webpack_require__("./src/bubble-chart/bubble-chart.component.ts");
 /* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__bubble_chart_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bubble_series_component__ = __webpack_require__("./src/bubble-chart/bubble-series.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__bubble_series_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__bubble_chart_utils__ = __webpack_require__("./src/bubble-chart/bubble-chart.utils.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_2__bubble_chart_utils__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_2__bubble_chart_utils__["b"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_2__bubble_chart_utils__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__bubble_series_component__ = __webpack_require__("./src/bubble-chart/bubble-series.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__bubble_series_component__["a"]; });
+
 
 
 
@@ -9544,7 +9552,7 @@ var LegendEntryComponent = /** @class */ (function () {
     LegendEntryComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'ngx-charts-legend-entry',
-            template: "\n    <span \n      [title]=\"formattedLabel\"\n      tabindex=\"-1\"\n      [class.active]=\"isActive\"\n      (click)=\"select.emit(formattedLabel)\">\n      <span\n        class=\"legend-label-color\"\n        [style.background-color]=\"color\"\n        (click)=\"toggle.emit(formattedLabel)\">\n      </span>\n      <span class=\"legend-label-text\">\n        {{trimmedLabel}}\n      </span>\n    </span>\n  ",
+            template: "\n    <span \n      [title]=\"formattedLabel\"\n      tabindex=\"-1\"\n      [class.active]=\"isActive\"\n      (click)=\"select.emit(formattedLabel)\">\n      <span\n        class=\"legend-label-color\"\n        [style.background-color]=\"color\"\n        [style.border-color]=\"color\"\n        (click)=\"toggle.emit(formattedLabel)\">\n      </span>\n      <span class=\"legend-label-text\">\n        {{trimmedLabel}}\n      </span>\n    </span>\n  ",
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush
         })
     ], LegendEntryComponent);
@@ -12756,9 +12764,18 @@ var GaugeModule = /** @class */ (function () {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__gauge_module__ = __webpack_require__("./src/gauge/gauge.module.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_0__gauge_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gauge_component__ = __webpack_require__("./src/gauge/gauge.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__gauge_component__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__gauge_module__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__gauge_arc_component__ = __webpack_require__("./src/gauge/gauge-arc.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__gauge_arc_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__gauge_axis_component__ = __webpack_require__("./src/gauge/gauge-axis.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_2__gauge_axis_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__gauge_component__ = __webpack_require__("./src/gauge/gauge.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_3__gauge_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__linear_gauge_component__ = __webpack_require__("./src/gauge/linear-gauge.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__linear_gauge_component__["a"]; });
+
+
+
 
 
 
@@ -13673,16 +13690,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarHorizontal2DComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarHorizontalNormalizedComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarHorizontalStackedComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SeriesHorizontal", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["l"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVerticalComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["h"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVertical2DComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["g"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVerticalNormalizedComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["i"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVerticalStackedComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["j"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "D0Types", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["k"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SeriesVerticalComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["m"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SeriesHorizontal", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["m"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarLabelComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVerticalComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["i"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVertical2DComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["h"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVerticalNormalizedComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["j"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BarVerticalStackedComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["k"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "D0Types", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["l"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "SeriesVerticalComponent", function() { return __WEBPACK_IMPORTED_MODULE_3__bar_chart__["n"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__bubble_chart__ = __webpack_require__("./src/bubble-chart/index.ts");
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BubbleChartModule", function() { return __WEBPACK_IMPORTED_MODULE_4__bubble_chart__["b"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BubbleChartComponent", function() { return __WEBPACK_IMPORTED_MODULE_4__bubble_chart__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getScaleType", function() { return __WEBPACK_IMPORTED_MODULE_4__bubble_chart__["f"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getDomain", function() { return __WEBPACK_IMPORTED_MODULE_4__bubble_chart__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "getScale", function() { return __WEBPACK_IMPORTED_MODULE_4__bubble_chart__["e"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "BubbleSeriesComponent", function() { return __WEBPACK_IMPORTED_MODULE_4__bubble_chart__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__force_directed_graph__ = __webpack_require__("./src/force-directed-graph/index.ts");
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "ForceDirectedGraphModule", function() { return __WEBPACK_IMPORTED_MODULE_5__force_directed_graph__["b"]; });
@@ -13707,20 +13728,24 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CardComponent", function() { return __WEBPACK_IMPORTED_MODULE_9__number_card__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "CardSeriesComponent", function() { return __WEBPACK_IMPORTED_MODULE_9__number_card__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pie_chart__ = __webpack_require__("./src/pie-chart/index.ts");
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieChartModule", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["c"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieChartComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieArcComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["a"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieGridComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["d"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieSeriesComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["f"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieLabelComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieChartModule", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "AdvancedPieChartComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieChartComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieArcComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieGridComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["e"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieSeriesComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["g"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "PieLabelComponent", function() { return __WEBPACK_IMPORTED_MODULE_10__pie_chart__["f"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__tree_map__ = __webpack_require__("./src/tree-map/index.ts");
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeMapModule", function() { return __WEBPACK_IMPORTED_MODULE_11__tree_map__["d"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeMapComponent", function() { return __WEBPACK_IMPORTED_MODULE_11__tree_map__["c"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeMapCellComponent", function() { return __WEBPACK_IMPORTED_MODULE_11__tree_map__["a"]; });
 /* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "TreeMapCellSeriesComponent", function() { return __WEBPACK_IMPORTED_MODULE_11__tree_map__["b"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__gauge__ = __webpack_require__("./src/gauge/index.ts");
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "GaugeModule", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["b"]; });
-/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "GaugeComponent", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "GaugeModule", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["d"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "GaugeArcComponent", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["a"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "GaugeAxisComponent", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["b"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "GaugeComponent", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["c"]; });
+/* harmony namespace reexport (by provided) */ __webpack_require__.d(__webpack_exports__, "LinearGaugeComponent", function() { return __WEBPACK_IMPORTED_MODULE_12__gauge__["e"]; });
 
 
 
@@ -13816,6 +13841,7 @@ var LineChartComponent = /** @class */ (function (_super) {
         _this.tooltipDisabled = false;
         _this.showRefLines = false;
         _this.showRefLabels = true;
+        _this.points = [];
         _this.activate = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
         _this.deactivate = new __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"]();
         _this.margin = [10, 20, 10, 20];
@@ -14202,6 +14228,10 @@ var LineChartComponent = /** @class */ (function (_super) {
         __metadata("design:type", Number)
     ], LineChartComponent.prototype, "yScaleMax", void 0);
     __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Input"])(),
+        __metadata("design:type", Object)
+    ], LineChartComponent.prototype, "points", void 0);
+    __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Output"])(),
         __metadata("design:type", __WEBPACK_IMPORTED_MODULE_0__angular_core__["EventEmitter"])
     ], LineChartComponent.prototype, "activate", void 0);
@@ -14226,7 +14256,7 @@ var LineChartComponent = /** @class */ (function (_super) {
     LineChartComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'ngx-charts-line-chart',
-            template: "\n    <ngx-charts-chart\n      [view]=\"[width, height]\"\n      [showLegend]=\"legend\"\n      [legendOptions]=\"legendOptions\"\n      [activeEntries]=\"activeEntries\"\n      [animations]=\"animations\"\n      (legendLabelClick)=\"onClick($event)\"\n      (legendLabelActivate)=\"onActivate($event)\"\n      (legendLabelDeactivate)=\"onDeactivate($event)\">\n      <svg:defs>\n        <svg:clipPath [attr.id]=\"clipPathId\">\n          <svg:rect\n            [attr.width]=\"dims.width + 10\"\n            [attr.height]=\"dims.height + 10\"\n            [attr.transform]=\"'translate(-5, -5)'\"/>\n        </svg:clipPath>\n      </svg:defs>\n      <svg:g [attr.transform]=\"transform\" class=\"line-chart chart\">\n        <svg:g ngx-charts-x-axis\n          *ngIf=\"xAxis\"\n          [xScale]=\"xScale\"\n          [dims]=\"dims\"\n          [showGridLines]=\"showGridLines\"\n          [showLabel]=\"showXAxisLabel\"\n          [labelText]=\"xAxisLabel\"\n          [tickFormatting]=\"xAxisTickFormatting\"\n          [ticks]=\"xAxisTicks\"\n          (dimensionsChanged)=\"updateXAxisHeight($event)\">\n        </svg:g>\n        <svg:g ngx-charts-y-axis\n          *ngIf=\"yAxis\"\n          [yScale]=\"yScale\"\n          [dims]=\"dims\"\n          [showGridLines]=\"showGridLines\"\n          [showLabel]=\"showYAxisLabel\"\n          [labelText]=\"yAxisLabel\"\n          [tickFormatting]=\"yAxisTickFormatting\"\n          [ticks]=\"yAxisTicks\"\n          [referenceLines]=\"referenceLines\"\n          [showRefLines]=\"showRefLines\"\n          [showRefLabels]=\"showRefLabels\"\n          (dimensionsChanged)=\"updateYAxisWidth($event)\">\n        </svg:g>\n        <svg:g [attr.clip-path]=\"clipPath\">\n          <svg:g *ngFor=\"let series of results; trackBy:trackBy\" [@animationState]=\"'active'\">\n            <svg:g ngx-charts-line-series\n              [xScale]=\"xScale\"\n              [yScale]=\"yScale\"\n              [colors]=\"colors\"\n              [data]=\"series\"\n              [activeEntries]=\"activeEntries\"\n              [scaleType]=\"scaleType\"\n              [curve]=\"curve\"\n              [rangeFillOpacity]=\"rangeFillOpacity\"\n              [hasRange]=\"hasRange\"\n              [animations]=\"animations\"\n            />\n          </svg:g>\n\n          <svg:g *ngIf=\"!tooltipDisabled\" (mouseleave)=\"hideCircles()\">\n            <svg:g ngx-charts-tooltip-area\n              [dims]=\"dims\"\n              [xSet]=\"xSet\"\n              [xScale]=\"xScale\"\n              [yScale]=\"yScale\"\n              [results]=\"results\"\n              [colors]=\"colors\"\n              [tooltipDisabled]=\"tooltipDisabled\"\n              [tooltipTemplate]=\"seriesTooltipTemplate\"\n              (hover)=\"updateHoveredVertical($event)\"\n            />\n\n            <svg:g *ngFor=\"let series of results\">\n              <svg:g ngx-charts-circle-series\n                [xScale]=\"xScale\"\n                [yScale]=\"yScale\"\n                [colors]=\"colors\"\n                [data]=\"series\"\n                [scaleType]=\"scaleType\"\n                [visibleValue]=\"hoveredVertical\"\n                [activeEntries]=\"activeEntries\"\n                [tooltipDisabled]=\"tooltipDisabled\"\n                [tooltipTemplate]=\"tooltipTemplate\"\n                (select)=\"onClick($event, series)\"\n                (activate)=\"onActivate($event)\"\n                (deactivate)=\"onDeactivate($event)\"\n              />\n            </svg:g>\n          </svg:g>\n        </svg:g>\n      </svg:g>\n      <svg:g ngx-charts-timeline\n        *ngIf=\"timeline && scaleType != 'ordinal'\"\n        [attr.transform]=\"timelineTransform\"\n        [results]=\"results\"\n        [view]=\"[timelineWidth, height]\"\n        [height]=\"timelineHeight\"\n        [scheme]=\"scheme\"\n        [customColors]=\"customColors\"\n        [scaleType]=\"scaleType\"\n        [legend]=\"legend\"\n        (onDomainChange)=\"updateDomain($event)\">\n        <svg:g *ngFor=\"let series of results; trackBy:trackBy\">\n          <svg:g ngx-charts-line-series\n            [xScale]=\"timelineXScale\"\n            [yScale]=\"timelineYScale\"\n            [colors]=\"colors\"\n            [data]=\"series\"\n            [scaleType]=\"scaleType\"\n            [curve]=\"curve\"\n            [hasRange]=\"hasRange\"\n            [animations]=\"animations\"\n          />\n        </svg:g>\n      </svg:g>\n    </ngx-charts-chart>\n  ",
+            template: "\n    <ngx-charts-chart\n      [view]=\"[width, height]\"\n      [showLegend]=\"legend\"\n      [legendOptions]=\"legendOptions\"\n      [activeEntries]=\"activeEntries\"\n      [animations]=\"animations\"\n      (legendLabelClick)=\"onClick($event)\"\n      (legendLabelActivate)=\"onActivate($event)\"\n      (legendLabelDeactivate)=\"onDeactivate($event)\">\n      <svg:defs>\n        <svg:clipPath [attr.id]=\"clipPathId\">\n          <svg:rect\n            [attr.width]=\"dims.width + 10\"\n            [attr.height]=\"dims.height + 10\"\n            [attr.transform]=\"'translate(-5, -5)'\"/>\n        </svg:clipPath>\n      </svg:defs>\n      <svg:g [attr.transform]=\"transform\" class=\"line-chart chart\">\n        <svg:g ngx-charts-x-axis\n          *ngIf=\"xAxis\"\n          [xScale]=\"xScale\"\n          [dims]=\"dims\"\n          [showGridLines]=\"showGridLines\"\n          [showLabel]=\"showXAxisLabel\"\n          [labelText]=\"xAxisLabel\"\n          [tickFormatting]=\"xAxisTickFormatting\"\n          [ticks]=\"xAxisTicks\"\n          (dimensionsChanged)=\"updateXAxisHeight($event)\">\n        </svg:g>\n        <svg:g ngx-charts-y-axis\n          *ngIf=\"yAxis\"\n          [yScale]=\"yScale\"\n          [dims]=\"dims\"\n          [showGridLines]=\"showGridLines\"\n          [showLabel]=\"showYAxisLabel\"\n          [labelText]=\"yAxisLabel\"\n          [tickFormatting]=\"yAxisTickFormatting\"\n          [ticks]=\"yAxisTicks\"\n          [referenceLines]=\"referenceLines\"\n          [showRefLines]=\"showRefLines\"\n          [showRefLabels]=\"showRefLabels\"\n          (dimensionsChanged)=\"updateYAxisWidth($event)\">\n        </svg:g>\n        <svg:g [attr.clip-path]=\"clipPath\">\n          <svg:g *ngFor=\"let series of results; trackBy:trackBy\" [@animationState]=\"'active'\">\n            <svg:g ngx-charts-line-series\n              [xScale]=\"xScale\"\n              [yScale]=\"yScale\"\n              [colors]=\"colors\"\n              [data]=\"series\"\n              [activeEntries]=\"activeEntries\"\n              [scaleType]=\"scaleType\"\n              [curve]=\"curve\"\n              [rangeFillOpacity]=\"rangeFillOpacity\"\n              [hasRange]=\"hasRange\"\n              [animations]=\"animations\"\n            />\n          </svg:g>\n\n          <svg:g *ngIf=\"!tooltipDisabled\" (mouseleave)=\"hideCircles()\">\n            <svg:g ngx-charts-tooltip-area\n              [dims]=\"dims\"\n              [xSet]=\"xSet\"\n              [xScale]=\"xScale\"\n              [yScale]=\"yScale\"\n              [results]=\"points || results\"\n              [colors]=\"colors\"\n              [tooltipDisabled]=\"tooltipDisabled\"\n              [tooltipTemplate]=\"seriesTooltipTemplate\"\n              (hover)=\"updateHoveredVertical($event)\"\n            />\n\n            <svg:g *ngFor=\"let series of points\">\n              <svg:g ngx-charts-circle-series\n                [xScale]=\"xScale\"\n                [yScale]=\"yScale\"\n                [colors]=\"colors\"\n                [data]=\"series\"\n                [scaleType]=\"scaleType\"\n                [visibleValue]=\"hoveredVertical\"\n                [activeEntries]=\"activeEntries\"\n                [tooltipDisabled]=\"tooltipDisabled\"\n                [tooltipTemplate]=\"tooltipTemplate\"\n                (select)=\"onClick($event, series)\"\n                (activate)=\"onActivate($event)\"\n                (deactivate)=\"onDeactivate($event)\"\n              />\n            </svg:g>\n          </svg:g>\n        </svg:g>\n      </svg:g>\n      <svg:g ngx-charts-timeline\n        *ngIf=\"timeline && scaleType != 'ordinal'\"\n        [attr.transform]=\"timelineTransform\"\n        [results]=\"results\"\n        [view]=\"[timelineWidth, height]\"\n        [height]=\"timelineHeight\"\n        [scheme]=\"scheme\"\n        [customColors]=\"customColors\"\n        [scaleType]=\"scaleType\"\n        [legend]=\"legend\"\n        (onDomainChange)=\"updateDomain($event)\">\n        <svg:g *ngFor=\"let series of results; trackBy:trackBy\">\n          <svg:g ngx-charts-line-series\n            [xScale]=\"timelineXScale\"\n            [yScale]=\"timelineYScale\"\n            [colors]=\"colors\"\n            [data]=\"series\"\n            [scaleType]=\"scaleType\"\n            [curve]=\"curve\"\n            [hasRange]=\"hasRange\"\n            [animations]=\"animations\"\n          />\n        </svg:g>\n      </svg:g>\n    </ngx-charts-chart>\n  ",
             styles: [__webpack_require__("./src/common/base-chart.component.scss")],
             encapsulation: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewEncapsulation"].None,
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush,
@@ -14583,7 +14613,7 @@ var LineComponent = /** @class */ (function () {
     LineComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({
             selector: 'g[ngx-charts-line]',
-            template: "\n    <svg:path\n      [@animationState]=\"'active'\"\n      class=\"line\"\n      [attr.d]=\"initialPath\"\n      [attr.fill]=\"fill\"\n      [attr.stroke]=\"stroke\"\n      stroke-width=\"1.5px\"\n    />\n  ",
+            template: "\n    <svg:path\n      [@animationState]=\"'active'\"\n      class=\"line\"\n      [class.line-dashed]=\"data.extra && data.extra.dashed\"\n      [attr.d]=\"initialPath\"\n      [attr.fill]=\"fill\"\n      [attr.stroke]=\"stroke\"\n      stroke-width=\"1.5px\"\n    />\n  ",
             changeDetection: __WEBPACK_IMPORTED_MODULE_0__angular_core__["ChangeDetectionStrategy"].OnPush,
             animations: [
                 Object(__WEBPACK_IMPORTED_MODULE_1__angular_animations__["trigger"])('animationState', [
@@ -15412,17 +15442,20 @@ var AdvancedPieChartComponent = /** @class */ (function (_super) {
 
 "use strict";
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__pie_chart_module__ = __webpack_require__("./src/pie-chart/pie-chart.module.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_0__pie_chart_module__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__pie_chart_component__ = __webpack_require__("./src/pie-chart/pie-chart.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__pie_chart_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pie_arc_component__ = __webpack_require__("./src/pie-chart/pie-arc.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_2__pie_arc_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pie_grid_component__ = __webpack_require__("./src/pie-chart/pie-grid.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_3__pie_grid_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pie_series_component__ = __webpack_require__("./src/pie-chart/pie-series.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_4__pie_series_component__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pie_label_component__ = __webpack_require__("./src/pie-chart/pie-label.component.ts");
-/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_5__pie_label_component__["a"]; });
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "d", function() { return __WEBPACK_IMPORTED_MODULE_0__pie_chart_module__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__advanced_pie_chart_component__ = __webpack_require__("./src/pie-chart/advanced-pie-chart.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_1__advanced_pie_chart_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__pie_chart_component__ = __webpack_require__("./src/pie-chart/pie-chart.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__pie_chart_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__pie_arc_component__ = __webpack_require__("./src/pie-chart/pie-arc.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_3__pie_arc_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pie_grid_component__ = __webpack_require__("./src/pie-chart/pie-grid.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "e", function() { return __WEBPACK_IMPORTED_MODULE_4__pie_grid_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pie_series_component__ = __webpack_require__("./src/pie-chart/pie-series.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "g", function() { return __WEBPACK_IMPORTED_MODULE_5__pie_series_component__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pie_label_component__ = __webpack_require__("./src/pie-chart/pie-label.component.ts");
+/* harmony namespace reexport (by used) */ __webpack_require__.d(__webpack_exports__, "f", function() { return __WEBPACK_IMPORTED_MODULE_6__pie_label_component__["a"]; });
+
 
 
 
@@ -17181,7 +17214,7 @@ var PolarChartModule = /** @class */ (function () {
     }
     PolarChartModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["NgModule"])({
-            imports: [__WEBPACK_IMPORTED_MODULE_1__common_chart_common_module__["a" /* ChartCommonModule */], __WEBPACK_IMPORTED_MODULE_4__pie_chart___["c" /* PieChartModule */], __WEBPACK_IMPORTED_MODULE_5__line_chart___["b" /* LineChartModule */]],
+            imports: [__WEBPACK_IMPORTED_MODULE_1__common_chart_common_module__["a" /* ChartCommonModule */], __WEBPACK_IMPORTED_MODULE_4__pie_chart___["d" /* PieChartModule */], __WEBPACK_IMPORTED_MODULE_5__line_chart___["b" /* LineChartModule */]],
             declarations: [
                 __WEBPACK_IMPORTED_MODULE_2__polar_chart_component__["a" /* PolarChartComponent */],
                 __WEBPACK_IMPORTED_MODULE_3__polar_series_component__["a" /* PolarSeriesComponent */]

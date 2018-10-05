@@ -27,6 +27,8 @@
     outline: none; }
   .ngx-charts g:focus {
     outline: none; }
+  .ngx-charts .line.line-dashed {
+    stroke-dasharray: 5px 3px; }
   .ngx-charts .line-series.inactive,
   .ngx-charts .line-series-range.inactive,
   .ngx-charts .polar-series-path.inactive,

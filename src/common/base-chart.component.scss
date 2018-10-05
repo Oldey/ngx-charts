@@ -29,6 +29,12 @@
     }
   }
 
+  .line {
+    &.line-dashed {
+      stroke-dasharray: 5px 3px;
+    }
+  }
+
   .line-series,
   .line-series-range,
   .polar-series-path,
